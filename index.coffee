@@ -23,7 +23,7 @@ addVerb = (request) ->
 throwStatus = (done, response, body) ->
   if not response?
     return done.fail( Error "Missing response" )
-  if response.statusCode >= 300
+  if response.statusCode >= 400
     e = new Error
     e.name = "#{response.statusCode} Error"
     e.message = body
