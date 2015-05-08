@@ -1,0 +1,29 @@
+{
+  "name": "asynquence-request",
+  "version": "1.0.0",
+  "description": "Provides 'request' as plugin for asynquence.",
+  "main": "index",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "prepublish": "./node_modules/.bin/coffee -c index.coffee"
+  },
+  "keywords": [
+    "asynquence",
+    "request",
+    "ASQ"
+  ],
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "coffee-script": "^1.9.2",
+    "asynquence": "^0.6.0-b",
+    "request": "^2.55.0"
+  },
+  "peerDependencies": {
+    "asynquence": "^0.6.0-b",
+    "asynquence-contrib": "^0.9.0-a",
+    "request": "^2.55.0"
+  },
+  "author": "William Hilton <wmhilton@gmail.com>",
+  "license": "MIT"
+}
