@@ -1,13 +1,14 @@
 language: node_js
 node_js:
-  - "node"
-  - "0.12"
-  - "0.11"
-  - "0.10"
+- node
+- '0.12'
+- '0.11'
+- '0.10'
 deploy:
   provider: npm
   email: wmhilton@gmail.com
   api_key:
-    secure: hA8sEK1OTQHWRRPtlbA+Atp0S2iuzBAaIoHYJ0fAbrsrAuPVHZQJ5Ltx2nd2jBxBXAUMNtSeoyN2NGf5/AtivjnHnbWXe5G4zxR3t+0mp9SGLq8TEh2NULoaCSSQlRBsDk/6YUOE+kLmhenmKuo+3LIRKpz9enFN2otrrO8Z7HE=
+    secure: FmLR/hR2WXS8055ZRIjlmr3xFRSc3derAGrnJwRrHyWnOoB2EBKzkpulghvmcIgOgW+ABL9Lt2q83keLSYMQxrEgouP43KnH1j8sYI2JOFU/Zv931FfGo8YlAPqYALc0vjTFkPP7SxQxdn5ltn5TIex/3LZS1JKhLCNiCP9A1HyjYyb0/tHU02e0KWT7IjJ66KL4NahKwA8jkhybiF67dyUsawoYKAN+Kl8TzHJFts15AqiLfQdMADU+NMQw2OVq1Dl6EXkbGbYhJnE+pffY7W354W42mZtoN/Gn9wIXa4lowewD+NXKY4HeeZq/WTZNVDfwCUXZR7kzM3Y9Fm8L+Q7u4gX+fwgVGyuei/cua0CNrs1w6M6l+QxqeiBJcRzdNsvlEtHsF2ErSqjdJ9GLTLTIBsHusun+ebzkR8MJVyjmtcteMGFulvhjUcqD3013gQfY1SPw5f5RUzwAf97XgpXapdMD0G4a94aNi8Siij/aB2iXe5KeHkN1A+ex8JKorTGiyTwXaPM/NRcTF/xiIfOFQ04HLKPV9HNAWM0KnqD7CSksPi4zgWOMJ0qyJm8ALJWTQYUB/rVoZk3KDIa8TzOUehjzN5YGq7etmCMSTKSbkYlf8GQ17L9XFz8erTXdx9OzwCEtdPX/yxZ1/hbM9wrCQe0t9wudy1Vb0+UNBwc=
   on:
     tags: true
+    repo: wmhilton/asynquence-request
