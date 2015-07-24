@@ -1,6 +1,8 @@
-# asynquence-request
+# asynquence-request [![Build Status](https://travis-ci.org/wmhilton/asynquence-request.svg?branch=master)](https://travis-ci.org/wmhilton/asynquence-request)
 This is a Node.js wrapper / plugin that makes using [request][request] easier with the [*asynquence*][asynquence] library.
 If you haven't heard of the *asynquence* library, you should [check it out][asynquence2]. It's like Promises on steroids.
+
+[![NPM](https://nodei.co/npm/asynquence-request.png)](https://nodei.co/npm/asynquence-request/)
 
 [asynquence]: http://www.npmjs.org/package/asynquence
 [request]: http://www.npmjs.org/package/request
