@@ -23,7 +23,7 @@ describe 'Plugin API', ->
 
 describe 'Test calls', ->
   # Tolerate some network latency
-  this.timeout 2000
+  this.timeout 5000
   it 'ASQ.get()', (done) ->
     ASQ()
     .get('http://httpbin.org/get')
