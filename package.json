@@ -1,6 +1,6 @@
 {
   "name": "asynquence-request",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Provides 'request' as plugin for asynquence.",
   "main": "index",
   "scripts": {
