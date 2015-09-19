@@ -1,6 +1,6 @@
 {
   "name": "asynquence-request",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Provides 'request' as plugin for asynquence.",
   "main": "index",
   "scripts": {
@@ -16,11 +16,11 @@
     "chai": "^2.2.0",
     "mocha": "^2.2.4",
     "coffee-script": "^1.9.2",
-    "asynquence": "^0.6.0-b",
+    "asynquence": ">=0.6.0-b",
     "request": "^2.55.0"
   },
   "peerDependencies": {
-    "asynquence": "^0.6.0-b",
+    "asynquence": ">=0.6.0-b",
     "request": "^2.55.0"
   },
   "author": "William Hilton <wmhilton@gmail.com>",
